@@ -71,7 +71,7 @@ Replace `PORT` with the port that the ESP32 is connected to.
 
 - The Project use hardware dummies, ie using some sort of mocked class to simulate the hardware
 - all the sensor class use the esp-idf paradigm components to seperate HAL code or userinterface codes
-- the **code can be build**
+- the **code can be build** ![can_be_build.png](./can_be_build.png)
 - it used esp-idf release/v4.4
 - 
 
