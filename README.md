@@ -1,8 +1,8 @@
-# IoT Sensor Data Post
+# IoT Sensor Data Post
 
 This project is designed to read data from various sensors, format the data into a JSON payload, and post the payload to a specific URL every minute. The project is built for the ESP32 microcontroller using the ESP-IDF libraries and FreeRTOS.
 
-## Sensors
+## Sensors
 
 The project reads data from the following sensors:
 
@@ -14,14 +14,13 @@ The project reads data from the following sensors:
 
 - Sunlight Sensor: Measures the intensity of sunlight.
 
-## Data Posting
+## Data Posting
 
 The sensor data is posted to the following URL: `https://cisea.bukitasam.co.id/api-iot/api/v1/iot/iot-test/post`
 
 The data is posted in the following JSON format:
 
 ```json
-
 {
 
    "sensor_code":"FF-001",
@@ -41,8 +40,8 @@ The data is posted in the following JSON format:
       "sunlight_intensity":750
 
    }
-
 }
+
 ```
 
 ## FreeRTOS
