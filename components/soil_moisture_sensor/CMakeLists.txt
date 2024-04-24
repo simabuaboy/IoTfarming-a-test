@@ -1,0 +1,9 @@
+idf_component_register(
+    SRCS
+        "src/SoilSensor.cpp"
+    INCLUDE_DIRS
+        "include"
+    REQUIRES
+        driver
+        log
+)
